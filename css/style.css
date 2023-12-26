@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: slategray;
+  font-family: "Poppins", sans-serif;
+  /* justify-content: center; */
+}
+.btn_signIn {
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.modalWindow {
+  width: 220px;
+  height: 200px;
+  display: none;
+  width: 210px;
+  align-items: center;
+}
+.modalWindow input {
+  display: flex;
+  height: 30px;
+  width: 200px;
+  top: 1rem;
+  transform: translateY(0);
+}
+.modalWindow1 {
+  width: 220px;
+  height: 200px;
+  display: none;
+}
+.spans {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
